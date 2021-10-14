@@ -43,7 +43,7 @@
     border-radius: 50%;
     background-color: #ffff;
     position: absolute;
-    left: 150px;
+    left: 100px;
     top: 50px;
 }
 
@@ -66,24 +66,30 @@
     
 @media (max-width: 991px){
     .f-image {
-        position: relative;
-        height: 100%;
-        width: 50% ;
+        height: 300px;
+        width: 298px;
+    
     }
     .contain-image {
         top: 26px;
-        height: 15rem !important;
+        height: 19rem !important;
         width: 15rem !important;
         object-fit: cover;
         object-position: top;
         position: relative;
        
+    
 
     }
     .contact-text {
         height: 23rem;
         width: 19rem;
  
+   }
+
+   .circle {
+       width: 100px;
+       height: 100px;;
    }
 
 }
