@@ -88,8 +88,13 @@ Animals.forEach(element => {
      <div class="animal-image">
          <img src="./images/${element.image}" alt="dog"height="250" width="300">
      </div>
+     <div class="container d-flex justify-content-between">
      <div class="animal-name">
          <h1 class="text-primary">${element.name}</h1>
+    </div>
+    <div class="animal-price">
+        <h3 class="text-primary">${element.price}</h3>
+     </div>
      </div>
  </div>
  </section>
