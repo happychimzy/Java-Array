@@ -15,7 +15,7 @@
 }
 .f-image2 {
     margin-left: -150px; 
-    background-position: 50% 50%;  
+    /* background-position: 50% 50%;   */
     background-size: cover; 
 }
 
@@ -26,7 +26,7 @@
 }
 
 .sample-text {
-    z-index: 200;
+    z-index: 500;
     
 }
 
@@ -43,8 +43,8 @@
     border-radius: 50%;
     background-color: #ffff;
     position: absolute;
-    left: 100px;
-    top: 50px;
+    left: 10%;
+    top: 5%;
 }
 
 .circle2 {
@@ -67,37 +67,64 @@
 @media (max-width: 991px){
     .f-image {
         height: 300px;
-        width: 298px;
+        width: 100%;
     
     }
-    .contain-image {
+    /* .contain-image {
         top: 26px;
-        height: 19rem !important;
-        width: 15rem !important;
+        height: 100% !important;
+        width: 100%;
         object-fit: cover;
         object-position: top;
         position: relative;
-       
+        */
     
 
-    }
+    /* } */
     .contact-text {
         height: 23rem;
-        width: 19rem;
+        width: 18rem;
  
    }
 
    .circle {
        width: 100px;
-       height: 100px;;
+       height: 100px;
+      
    }
 
 }
  @media(max-width: 576px){
-     .f-image2{
-        object-position: 50% 50%;
+     .f-image2 {
+        object-position: 50%;
         margin:0 auto;
+        position: relative;
      }
+
+     .contact-text{
+         width: 100%;
+         position: static;
+         margin-left: 0;
+     }
+
+     #lady {
+         width: 100%!important;
+     }
+     .circle{
+        left: 2%;
+        top: 8%;
+        z-index: 1000;
+     }
+    
+     .contain-image {
+        top: 26px;
+        height: 100% !important;
+        width: 100% !important;
+        object-fit: cover;
+        object-position: top;
+        position: relative;
+       
     
  }
 
+}
