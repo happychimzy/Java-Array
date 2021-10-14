@@ -14,12 +14,12 @@
     
 }
 .f-image2 {
-    margin-left: -120px;    
+    margin-left: -150px; 
+    background-position: 50% 50%;  
+    background-size: cover; 
 }
 
 .person-name{
-    /* margin-top: -50px; */
-    /* position: absolute; */
     background-color: antiquewhite;
     z-index: 5000;
     width: 25 !important;
@@ -93,4 +93,11 @@
    }
 
 }
- 
+ @media(max-width: 576px){
+     .f-image2{
+        object-position: 50% 50%;
+        margin:0 auto;
+     }
+    
+ }
+
