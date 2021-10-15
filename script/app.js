@@ -1,106 +1,103 @@
 
-let Animals = [
+let Bag = [
+
     {
-        name: " Dog ",
-        price: "$70",
-        image: "dog.jpg"
+        name: " hublot ",
+        price: "$950",
+        image: "wristwatches.jpg"
     },
 
     {
-        name: " fish ",
-        price: "$100",
-        image: "fish.jpg"
+        name: " M-purse ",
+        price: "$650",
+        image: "purseeeeee.jpg"
     },
 
     {
-        name: " monkeys ",
-        price: "$90",
-        image: "monkey.jpg"
-    },
-
-    {
-        name: " peacock ",
-        price: "$70",
-        image: "peacock.jpg"
-    },
-
-    {
-        name: " pig ",
+        name: " Xavier ",
         price: "$700",
-        image: "pig.jpg"
+        image: "lady-bag.jpg"
+    },
+
+
+    {
+        name: " Vikenz ",
+        price: "$700",
+        image: "accessories.jpg"
     },
 
     {
-        name: " Toad ",
-        price: "$150",
-        image: "Toad.jpg"
-    },
-
-    {
-        name: " Rabbit ",
-        price: "$70",
-        image: "rabbit.jpg"
-    },
-
-    {
-        name: " Dog ",
+        name: " Vogue ",
         price: "$170",
-        image: "dog.jpg"
+        image: "diff.pieces.jpg"
     },
 
     {
-        name: " Sheep ",
+        name: " Fendi ",
         price: "$250",
-        image: "babysheep.jpg"
+        image: "brown-bag.jpg"
     },
 
     {
-        name: " Bird ",
+        name: " louiton2 ",
         price: "$250",
-        image: "bird.jpg"
+        image: "acesory.jpg"
     },
 
     {
-        name: "puppy",
+        name: "Gucci",
         price: "$250",
-        image: "babydog.jpg"
+        image: "baggggsss.jpg"
     },
 
     {
-        name: "playing animals ",
+        name: "mackenz ",
         price: "$300",
-        image: "playinganimals.jpg"
+        image: "wristwatches.jpg"
+    },
+
+
+    {
+        name: " Prindi ",
+        price: "$250",
+        image: "minibag.jpg"
     },
 
     {
-        name: " kenya bird ",
-        price: "$350",
-        image: "kenya-bird.jpg"
-    }
+        name: "Gucci",
+        price: "$250",
+        image: "gucci2.jpg"
+    },
+
+    {
+        name: "mackenz ",
+        price: "$300",
+        image: "stylebag.jpg"
+    },
 
 ]
 
-let image_container = document.querySelector('#Animals-secondary')
-Animals.forEach(element => {
-    let animalCard = `<div class="col-sm-12 col-md-6 col-lg-4">
-    <section class="animal-section" >
-    <div class="animal-cards">
-     <div class="animal-image">
-         <img src="./images/${element.image}" alt="dog"height="250" width="300">
+let image_container = document.querySelector('#Bags-secondary')
+Bag.forEach(element => {
+    let bagCard = `<div class="col-sm-12 col-md-6 col-lg-4">
+    <section class="bag-section" >
+    <div class="bag-cards">
+     <div class="bag-image">
+         <img src="./images/${element.image}" alt="louiton"height="250" width="300">
      </div>
      <div class="container d-flex justify-content-between">
-     <div class="animal-name">
-         <h1 class="text-primary">${element.name}</h1>
+     <div class="bag-name">
+         <h1 class="text-white">${element.name}</h1>
     </div>
-    <div class="animal-price">
-        <h3 class="text-primary">${element.price}</h3>
+    <div class="bag-price">
+        <h3 class="text-white">${element.price}</h3>
      </div>
      </div>
  </div>
  </section>
  </div>`;
     if (image_container)
-        image_container.innerHTML += animalCard;
+        image_container.innerHTML += bagCard;
 
 });
 
