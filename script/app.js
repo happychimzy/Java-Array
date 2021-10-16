@@ -2,7 +2,7 @@
 let Bag = [
 
     {
-        name: " hublot ",
+        name: " Hublot ",
         price: "$950",
         image: "flat.jpg"
     },
@@ -51,7 +51,7 @@ let Bag = [
     },
 
     {
-        name: "mackenz ",
+        name: "Mackenz ",
         price: "$300",
         image: "classy.jpg"
     },
@@ -70,7 +70,7 @@ let Bag = [
     },
 
     {
-        name: "mackenz ",
+        name: "Mackenz ",
         price: "$300",
         image: "beauty.jpg"
     },
@@ -87,10 +87,10 @@ Bag.forEach(element => {
      </div>
      <div class="container d-flex justify-content-between">
      <div class="bag-name">
-         <h1 class="text-white">${element.name}</h1>
+         <h1 class="text-primary">${element.name}</h1>
     </div>
     <div class="bag-price">
-        <h3 class="text-white">${element.price}</h3>
+        <h3 class="text-primary">${element.price}</h3>
      </div>
      </div>
  </div>
