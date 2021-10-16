@@ -4,75 +4,75 @@ let Bag = [
     {
         name: " hublot ",
         price: "$950",
-        image: "wristwatches.jpg"
+        image: "flat.jpg"
     },
 
     {
         name: " M-purse ",
         price: "$650",
-        image: "purseeeeee.jpg"
+        image: "diff.pieces.jpg"
     },
 
     {
         name: " Xavier ",
         price: "$700",
-        image: "lady-bag.jpg"
+        image: "classy.jpg"
     },
 
 
     {
         name: " Vikenz ",
         price: "$700",
-        image: "accessories.jpg"
+        image: "pexels.jpeg"
     },
 
     {
         name: " Vogue ",
         price: "$170",
-        image: "diff.pieces.jpg"
+        image: "black.jpeg"
     },
 
     {
         name: " Fendi ",
         price: "$250",
-        image: "brown-bag.jpg"
+        image: "nude.jpeg"
     },
 
     {
         name: " louiton2 ",
         price: "$250",
-        image: "acesory.jpg"
+        image: "round.jpeg"
     },
 
     {
         name: "Gucci",
         price: "$250",
-        image: "baggggsss.jpg"
+        image: "white.jpeg"
     },
 
     {
         name: "mackenz ",
         price: "$300",
-        image: "wristwatches.jpg"
+        image: "classy.jpg"
     },
 
 
     {
         name: " Prindi ",
         price: "$250",
-        image: "minibag.jpg"
+        image: "pitch.jpg"
     },
 
     {
         name: "Gucci",
         price: "$250",
-        image: "gucci2.jpg"
+        image: "fashion.jpg"
     },
 
     {
         name: "mackenz ",
         price: "$300",
-        image: "stylebag.jpg"
+        image: "beauty.jpg"
     },
 
 ]
